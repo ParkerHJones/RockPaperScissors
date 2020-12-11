@@ -20,8 +20,7 @@ handleClick = (choice) => {
     }
 }
 
-
-
+//  Lines 24-29 makes a random choice display between strings when user clicks
 computerClick = (randomChoice) => {
 randomChoice = ["Rock", "Paper", "Scissors"]; 
 
@@ -39,25 +38,6 @@ compChoice.innerHTML = randomChoice;
 //     result.innerHTML = "The Computer won"
 // }
 // public static void results 
-// }
-
-
-
-
-
-// computerClick = (computer) => {
-//     options = ["Rock", "Paper", "Scissors"]
-//     compChoice.inn
-// } 
-
-
- 
-
-
-// computerClick = () => {
-// lets compChoice =
-// static final String[] compChoice = ["Rock", "Paper", "Scissors"];
-// compChoice.innerHTML = compChoice
 // }
 
 
