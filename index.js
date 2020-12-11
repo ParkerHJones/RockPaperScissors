@@ -30,16 +30,16 @@ compChoice.innerHTML = randomChoice;
 }
 
 
-results = () => {
-if (compChoice.innerHTML = UC.innerHTML) {
-    result.innerHTML = "It is a tie";
-} else if (compChoice.innerHTML < UC.innerHTML){
-    result.innerHTML = "You won!"
-} else {
-    result.innerHTML = "The Computer won"
-}
-public static void results 
-}
+// results = () => {
+// if (compChoice.innerHTML = UC.innerHTML) {
+//     result.innerHTML = "It is a tie";
+// } else if (compChoice.innerHTML < UC.innerHTML){
+//     result.innerHTML = "You won!"
+// } else {
+//     result.innerHTML = "The Computer won"
+// }
+// public static void results 
+// }
 
 
 
