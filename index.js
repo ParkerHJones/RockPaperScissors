@@ -2,11 +2,13 @@
 let UC = document.getElementById("UsersChoice")
 let compChoice = document.getElementById("ComputerChoice")
 let result = document.getElementById("Result")
-
+let reset = document.getElementById("Reset")
 
 let rock = ""
 let paper = ""
 let scissors = ""
+
+
 
 handleClick = (choice) => {
     if (choice == 1) {
@@ -18,7 +20,15 @@ handleClick = (choice) => {
     else {
         UC.innerHTML = "Scissors"
     }
+    
+
 }
+
+
+
+
+
+
 
 //  Lines 24-29 makes a random choice display between strings when user clicks
 computerClick = (randomChoice) => {
@@ -26,19 +36,42 @@ randomChoice = ["Rock", "Paper", "Scissors"];
 
 randomChoice = randomChoice[Math.floor(Math.random()*randomChoice.length)];
 compChoice.innerHTML = randomChoice; 
+
 }
 
 
-// results = () => {
-// if (compChoice.innerHTML = UC.innerHTML) {
-//     result.innerHTML = "It is a tie";
-// } else if (compChoice.innerHTML < UC.innerHTML){
-//     result.innerHTML = "You won!"
-// } else {
-//     result.innerHTML = "The Computer won"
+// winner 
 // }
-// public static void results 
+
+// // function result (choice, randomChoice) {
+// //     return choice.beats === randomChoice.name
 // }
+
+
+
+// function result() {
+//     if (choice = randomChoice) { 
+//         "It is a tie"
+//     }
+//     else if (choice >= randomChoice) {
+//         "Congratulations you won!" 
+//     }
+//     else {
+//         "The computer won"
+//     }
+//     }
+
+// function computerchoice() {
+//     computerClick = (randomChoice) => {
+//         randomChoice = ["Rock", "Paper", "Scissors"]; 
+        
+//         randomChoice = randomChoice[Math.floor(Math.random()*randomChoice.length)];
+//         compChoice.innerHTML = randomChoice; 
+
+// }
+
+
+
 
 
 
